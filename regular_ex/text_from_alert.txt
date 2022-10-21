@@ -1,0 +1,26 @@
+﻿Инцидент по группе хостов Tivoliagent
+Проблема: pvlsa-sbbol0272.tivoli.was Monitoring agent Primary: pvlsa-sbbol0272:KYNA YN is not avaliable High;
+Уровень важности: высокий
+ZABBIX сервер: Zabbix Prom Sigma
+Хост:  pvlsa-sbbol0272.tivoli.was
+Время: 2022.08.25 15:55:31
+История проблем по хосту: http://prom.zabbix.sigma.sbrf.ru/tr_events.php?triggerid=23841580&event=3083040959
+rule_id: 100316
+
+Инцидент по группе хостов TivoliagentMQ
+Проблема: pvli-efs0441.tivoli.mq Monitoring agent M00.EMP.AUDIT: 0441:MQ MQ is not avaliable High;
+Уровень важности: высокий
+ZABBIX сервер: Zabbix Prom APP
+Хост:  pvli-efs0441.tivoli.mq
+Время: 2022.08.277 15:38:31
+История проблем по хосту: http://app.prom.zabbix.ca.sbrf.ru/tr_events.php?triggerid=5309106&event=2891805228
+rule_id: 100331
+
+Инцидент по группе хостов Tivoliagent
+Проблема: pvlsa-sbbol760243.tivoli.was Monitoring agent Primary: pvlsa-sbbol0272:KYNA YN is not avaliable High;
+Уровень важности: высокий
+ZABBIX сервер: Zabbix Prom Sigma
+Хост:  pvlsa-sbbol02700542.tivoli.was
+Время: 2022.08.25 15:55:31
+История проблем по хосту: http://prom.zabbix.sigma.sbrf.ru/tr_events.php?triggerid=23841580&event=3083040959
+rule_id: 100316

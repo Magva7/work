@@ -3,12 +3,12 @@ import pygame
 import os
 
 set_min = int(input('Введите количество минут: '))
-secund = set_min * 60
+seconds = set_min * 60
 
 
-while secund != 0:
-    secund -= 1  # every iteration minus 1 second
-    print(time.strftime("Осталось: %M:%S", time.localtime(secund)))
+while seconds != 0:
+    seconds -= 1  # every iteration minus 1 second
+    print(time.strftime("Осталось: %M:%S", time.localtime(seconds)))
     time.sleep(1)  # 1 second delay
     os.system('CLS')  # clear console
     

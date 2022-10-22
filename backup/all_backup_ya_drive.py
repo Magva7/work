@@ -6,9 +6,9 @@ import os
 def func_arh(destination_folder, arhive_name):  # source folder to archive
     folder_with_archive_storage = r'F:\YandexDisk\Save_all'  # archive folder
     filename = arhive_name + '_save_backup_{:%Y_%b_%d_%H-%M}'.format(
-        datetime.datetime.now())  # имя файла архива  с датой и временем
-    shutil.make_archive(os.path.join(folder_with_archive_storage, filename), 'zip',
-                        destination_folder)  # процесс архивации
+        datetime.datetime.now())  # file name and date with time
+    shutil.make_archive(os.path.join(folder_with_archive_storage, filename),
+                        'zip', destination_folder)  # archive process
     print('Создан архив: ' + filename + '.zip')
 
 
